@@ -10,6 +10,9 @@ import javax.persistence.Embeddable;
 @Getter @Setter
 public class Address {
 
+    protected Address(){
+    }
+
     private String city;
     private String street;
     private String zipcode;
